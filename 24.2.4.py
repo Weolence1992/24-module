@@ -1,6 +1,6 @@
 import pytest
 
-from app.calc import Calculator
+from calc import Calculator
 
 class TestCalc:
     def setup_method(self):
