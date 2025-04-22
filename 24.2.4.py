@@ -17,3 +17,6 @@ class TestCalc:
 
     def test_multiplu(self):
         assert self.calc.multiply(self, 3, 3) == 9
+
+    def teardown(self):
+        print('Выполнение метода Teardown')
